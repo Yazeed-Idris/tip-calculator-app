@@ -30,7 +30,7 @@ function handleReset() {
 </script>
 
 <template>
-    <img class="mb-12 lg:mb-20 mx-auto" src="/logo.svg" alt="SPLITTER logo">
+    <img class="my-12 lg:mb-20 mx-auto" src="/logo.svg" alt="SPLITTER logo">
   <div class=' shadow-lg rounded-3xl bg-White p-6 lg:p-8'>
     <div class="lg:grid grid-cols-2">
       <div class="lg:mr-10">

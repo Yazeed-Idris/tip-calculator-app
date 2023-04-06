@@ -32,17 +32,17 @@ function handleReset() {
       <div>
         <div class="flex justify-between items-center mt-4">
           <div>
-            <h1 class="text-White">Tip Amount</h1>
-            <p class="text-Grayish-Cyan text-sm">/ person</p>
+            <h1 class="text-White lg:text-2xl">Tip Amount</h1>
+            <p class="text-Grayish-Cyan text-sm lg:text-base">/ person</p>
           </div>
-          <p class="text-Strong-Cyan text-3xl">{{formatter.format(tipAmountPerPerson)}}</p>
+          <p class="text-Strong-Cyan text-3xl lg:text-4xl">{{formatter.format(tipAmountPerPerson)}}</p>
         </div>
         <div class="flex justify-between items-center mt-6">
           <div>
-            <h1 class="text-White">Total</h1>
-            <p class="text-Grayish-Cyan text-sm">/ person</p>
+            <h1 class="text-White lg:text-2xl">Total</h1>
+            <p class="text-Grayish-Cyan text-sm lg:text-base">/ person</p>
           </div>
-          <p class="text-Strong-Cyan text-3xl">{{formatter.format(totalPerPerson)}}</p>
+          <p class="text-Strong-Cyan text-3xl lg:text-4xl">{{formatter.format(totalPerPerson)}}</p>
         </div>
       </div>
       <button @click="handleReset" class='disabled:opacity-10 active:bg-Button-Active rounded py-2 mt-6 bg-Strong-Cyan text-Very-Dark-Cyan text-xl w-full' :disabled="!(props.peopleNumber > 0)">RESET</button>
