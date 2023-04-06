@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+body, html {
+    height: 100%;
+    background-color:hsl(185, 41%, 84%) ;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+input {
+    font-size: 24px;
+}
