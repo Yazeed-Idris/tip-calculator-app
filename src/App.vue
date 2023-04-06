@@ -10,6 +10,8 @@ import Results from './components/Results.vue'
   <div class='container shadow-lg rounded-3xl bg-White p-6'>
     <BillInput />
     <TipSelector />
+    <PeopleNumberInput />
+    <Results />
   </div>
 </template>
 
